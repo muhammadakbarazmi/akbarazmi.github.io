@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pengenalan Bootstrap</title>
+    <!--Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Menyisipkan Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Selamat Datang Di Galeri Kota Reyog Ponorogo Jawa Timur Indonesia</h1>
+
+        <div class="container-fluid">
+            <button type="button" class="btn">Default</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>    
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Utama</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Info</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="container">
+    <h2>Sejarah Kota Ponorogo</h2>
+    <div class="row row-cols-1">
+        <div class="col">
+            <img src="sejarah.jpg.png" class="rounded" alt="gambar round">
+        </div>
+        <div class="container">
+            <h2>Galeri Reyog Ponorogo</h2>
+        <div class="col">
+            <img src="reyog.jpg" class="rounded-circle" alt="gambar circle">
+        </div>
+        <div class="col">
+            <img src="reyog2.jpg" class="img-thumbnail" alt="gambar thumbnail">
+        </div>
+        <div class="col">
+            <img src="reyog3.jpg" class="img-fluid" alt="gambar thumbnail">
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
